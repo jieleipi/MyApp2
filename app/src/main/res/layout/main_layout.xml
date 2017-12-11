@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广播"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyBroadcastReceiver"/>
+
+    <Button
+        android:id="@+id/force_offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send force offline broadcast"
+        />
+
+    <Button
+        android:id="@+id/make_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打电话"
+        />
+
+    <Button
+        android:id="@+id/make_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取联系人"
+        />
+
+    <Button
+        android:id="@+id/make_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知"
+        />
+
+
+    <Button
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebView"
+        />
+
+
+</LinearLayout>
